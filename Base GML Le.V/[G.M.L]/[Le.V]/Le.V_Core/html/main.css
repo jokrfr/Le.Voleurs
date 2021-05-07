@@ -1,0 +1,35 @@
+
+
+body{
+	margin:0;
+	opacity : 0.0;
+	transition : 1s ease;
+}
+*,:after,:before{box-sizing:border-box}
+.pull-left{float:left}
+.pull-right{float:right}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+
+.credit-card-wrap .mk-icon-world-map:before,
+.credit-card-wrap .credit-card-number:before{
+	content:'';
+	position:absolute;
+}
+
+#logo {
+	background-image: url('../img/logo.png');
+	position: absolute;
+	left: 34%;
+	top: 34%;
+	transform: translateX(-34%) translateY(-34%);
+	text-align: center;
+	width: 100%;
+}
+
+#logo img {
+	background-image: url('../img/logo.png');
+	width: 500px;
+	filter: hue-rotate(0) drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.3));
+	transition: all 0.5s ease;
+}
